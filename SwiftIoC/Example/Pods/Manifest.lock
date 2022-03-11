@@ -1,0 +1,16 @@
+PODS:
+  - SwiftIoC (0.1.0)
+
+DEPENDENCIES:
+  - SwiftIoC (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftIoC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftIoC: d63ef1841cec235c79f0eb2e55e75d3f3defd0a3
+
+PODFILE CHECKSUM: 54c0f18c3ef5ba220d0749b9f1f0707a37d3e839
+
+COCOAPODS: 1.10.0

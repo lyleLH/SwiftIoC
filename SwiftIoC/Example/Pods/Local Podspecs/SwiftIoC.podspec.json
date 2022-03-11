@@ -1,0 +1,22 @@
+{
+  "name": "SwiftIoC",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftIoC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Major Tom/SwiftIoC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Major Tom": "v2top1@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Major Tom/SwiftIoC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SwiftIoC/Classes/**/*"
+}

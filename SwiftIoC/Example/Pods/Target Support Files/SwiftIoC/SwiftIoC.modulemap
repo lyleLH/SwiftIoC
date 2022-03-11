@@ -1,0 +1,6 @@
+framework module SwiftIoC {
+  umbrella header "SwiftIoC-umbrella.h"
+
+  export *
+  module * { export * }
+}
