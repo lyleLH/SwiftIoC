@@ -3,6 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'SwiftIoC_Example' do
+  pod 'Swinject'
   pod 'SwiftIoC', :path => '../'
 
   target 'SwiftIoC_Tests' do
