@@ -11,7 +11,7 @@ import Foundation
 class ViewModel: NSObject {
     
     func getHomeData(result:((String , String)->())){
-        result("www.yeahka.com","merchantdetails")
+        result("www.baidu.com","merchantdetails")
     }
     
 }

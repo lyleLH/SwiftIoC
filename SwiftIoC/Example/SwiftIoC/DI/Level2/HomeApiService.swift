@@ -10,7 +10,7 @@ import Foundation
 
 class HomeApiService: NSObject,HomeApiServiceProtocol{
     func getHomeData(result:((String , String)->())){
-        result("www.yeahka.com","merchantdetails")
+        result("www.baidu.com","merchantdetails")
     }
     
     func getMerchantName(result:((String )->())){
