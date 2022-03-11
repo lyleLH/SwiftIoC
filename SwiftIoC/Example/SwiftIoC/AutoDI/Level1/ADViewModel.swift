@@ -15,4 +15,7 @@ class ADViewModel:BaseViewModel {
         userName = name
     }
     
+    func speakMyName()  {
+        print("my name is \(userName)") 
+    }
 }
