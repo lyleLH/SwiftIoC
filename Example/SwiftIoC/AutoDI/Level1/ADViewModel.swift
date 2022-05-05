@@ -18,4 +18,9 @@ class ADViewModel:BaseViewModel {
     func speakMyName()  {
         print("my name is \(userName)") 
     }
+
+    override func function1() {
+        print("my name is \(userName)")
+
+    }
 }

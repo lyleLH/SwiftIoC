@@ -12,6 +12,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		71F4162B51EA57A74999A482 /* HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F414BF0231F04AA9C67E5B /* HomeListViewController.swift */; };
+		71F4178A0E63A7E75CABD174 /* BaseViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F41DB6F28377C3BC08F375 /* BaseViewControllerProtocol.swift */; };
+		71F4181114F457CAAA279AB8 /* BaseViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F418B9D2782FA327924BCA /* BaseViewModelProtocol.swift */; };
 		A50D21CE0B3DFBBC4B000145 /* Pods_SwiftIoC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85D21E22397A62CDCC9718D /* Pods_SwiftIoC_Example.framework */; };
 		B83CD261B2AE4DF54DC69202 /* Pods_SwiftIoC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC325BC5F97E29F8101B936F /* Pods_SwiftIoC_Tests.framework */; };
 		E709AE2F27DB703600AC8D42 /* AutoDIViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709AE2E27DB703600AC8D42 /* AutoDIViewcontroller.swift */; };
@@ -36,6 +39,7 @@
 		E7A8C77327DB31990053EBDC /* BusinessViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A8C76127DB31990053EBDC /* BusinessViewModel2.swift */; };
 		E7A8C77427DB31990053EBDC /* NetworkDataSevice2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A8C76227DB31990053EBDC /* NetworkDataSevice2.swift */; };
 		E7A8C77527DB31990053EBDC /* LocalDataService2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A8C76327DB31990053EBDC /* LocalDataService2.swift */; };
+		E7DEADB82823758B00FF4CFA /* HomeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEADB72823758B00FF4CFA /* HomeListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,9 @@
 		607FACE51AFB9204008FA782 /* SwiftIoC_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftIoC_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		71F414BF0231F04AA9C67E5B /* HomeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeListViewController.swift; sourceTree = "<group>"; };
+		71F418B9D2782FA327924BCA /* BaseViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModelProtocol.swift; sourceTree = "<group>"; };
+		71F41DB6F28377C3BC08F375 /* BaseViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewControllerProtocol.swift; sourceTree = "<group>"; };
 		8F3C419A3F572000ADABC56C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8FFFEAA03B666E429187F8C0 /* Pods-SwiftIoC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftIoC_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftIoC_Example/Pods-SwiftIoC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9E5D9074706125C48605EBD6 /* Pods-SwiftIoC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftIoC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftIoC_Tests/Pods-SwiftIoC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +96,7 @@
 		E7A8C76127DB31990053EBDC /* BusinessViewModel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessViewModel2.swift; sourceTree = "<group>"; };
 		E7A8C76227DB31990053EBDC /* NetworkDataSevice2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDataSevice2.swift; sourceTree = "<group>"; };
 		E7A8C76327DB31990053EBDC /* LocalDataService2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalDataService2.swift; sourceTree = "<group>"; };
+		E7DEADB72823758B00FF4CFA /* HomeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,9 +214,13 @@
 		E709AE2D27DB701D00AC8D42 /* Level1 */ = {
 			isa = PBXGroup;
 			children = (
+				71F414BF0231F04AA9C67E5B /* HomeListViewController.swift */,
+				E7DEADB72823758B00FF4CFA /* HomeListViewModel.swift */,
 				E709AE3027DB71A700AC8D42 /* ADViewModel.swift */,
 				E709AE3227DB722200AC8D42 /* BaseViewModel.swift */,
 				E709AE3427DB747B00AC8D42 /* BaseViewController.swift */,
+				71F418B9D2782FA327924BCA /* BaseViewModelProtocol.swift */,
+				71F41DB6F28377C3BC08F375 /* BaseViewControllerProtocol.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -482,7 +494,11 @@
 				E7A8C76727DB31990053EBDC /* LocalDataService1.swift in Sources */,
 				E7A8C76B27DB31990053EBDC /* HomeApiServiceProtocol.swift in Sources */,
 				E7A8C77427DB31990053EBDC /* NetworkDataSevice2.swift in Sources */,
+				E7DEADB82823758B00FF4CFA /* HomeListViewModel.swift in Sources */,
 				E7A8C77327DB31990053EBDC /* BusinessViewModel2.swift in Sources */,
+				71F4162B51EA57A74999A482 /* HomeListViewController.swift in Sources */,
+				71F4181114F457CAAA279AB8 /* BaseViewModelProtocol.swift in Sources */,
+				71F4178A0E63A7E75CABD174 /* BaseViewControllerProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

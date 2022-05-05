@@ -1,5 +1,6 @@
 PODS:
-  - SwiftIoC (0.1.0)
+  - SwiftIoC (0.1.0):
+    - Swinject
   - Swinject (2.8.1)
 
 DEPENDENCIES:
@@ -15,9 +16,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftIoC: d63ef1841cec235c79f0eb2e55e75d3f3defd0a3
+  SwiftIoC: 42f4582e951dde58b78bf014906d6b2584d94eda
   Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
 
 PODFILE CHECKSUM: b6d2e4d63822858201302b867a519d17ef798f0b
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

@@ -23,8 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return controller
         }
         container.register(AutoDIViewcontroller.self) { r in
-            let controller = AutoDIViewcontroller()
-            controller.viewModel = r.resolve(ADViewModel.self)
+            let controller = AutoDIViewcontroller(vm:r.resolve(ADViewModel.self) ?? ADViewModel(name: "Mimi"))
+//            controller.viewModel = r.resolve(ADViewModel.self)
             return controller
         }
         return container

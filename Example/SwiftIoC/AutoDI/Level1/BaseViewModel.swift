@@ -8,6 +8,8 @@
 
 import Foundation
 
-class BaseViewModel:NSObject {
-    
+class BaseViewModel:NSObject ,BaseViewModelProtocol{
+    func function1() {
+        print("This is function 1")
+    }
 }

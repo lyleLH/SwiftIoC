@@ -57,7 +57,6 @@ class ViewController: UIViewController {
         let delegate = UIApplication.shared.delegate as! AppDelegate
         let vc = delegate.container.resolve(AutoDIViewcontroller.self)!
    
-        
         if #available(iOS 14.0, *) {
             button = UIButton(frame: CGRect.init(x: 100, y: 100, width: 100, height: 44), primaryAction: UIAction.init(handler: { _ in
                 self.present(vc, animated: true) {
@@ -68,7 +67,7 @@ class ViewController: UIViewController {
             // Fallback on earlier versions
         }
         button.setTitle("Push", for: UIControl.State.normal)
-        button.backgroundColor = .yellow
+        button.backgroundColor = .white
         view.addSubview(button)
 
     }

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0f09807-114a-471a-9e2a-aecff76987fb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pods/Local Podspecs/SwiftIoC.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Pods/Local Podspecs/SwiftIoC.podspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pods/Target Support Files/SwiftIoC/SwiftIoC.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../Pods/Target Support Files/SwiftIoC/SwiftIoC.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pods/Target Support Files/SwiftIoC/SwiftIoC.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../Pods/Target Support Files/SwiftIoC/SwiftIoC.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SwiftIoC.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/../../SwiftIoC.podspec" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="28j0ItuxVkzJBpEkAzTBs5UVOY1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0f09807-114a-471a-9e2a-aecff76987fb" name="Changes" comment="" />
+      <created>1651714612544</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651714612544</updated>
+      <workItem from="1651714614014" duration="6000" />
+    </task>
+    <servers />
+  </component>
+</project>

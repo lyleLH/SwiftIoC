@@ -9,6 +9,18 @@
 import Foundation
 import UIKit
 
-class BaseViewController: UIViewController {
-    public var viewModel:ADViewModel!
+class BaseViewController<Element:BaseViewModelProtocol>: UIViewController {
+    public var viewModel:Element!
+    
+
+    init(vm: Element){
+        super.init(nibName: nil, bundle: nil)
+        viewModel = vm
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+   
 }
